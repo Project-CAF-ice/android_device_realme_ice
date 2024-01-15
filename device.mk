@@ -221,26 +221,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9ProSystemUI \
-    AOSPAOnePlus9SeriesFrameworks \
-    AOSPAOnePlus9SeriesSystemUI \
-    AOSPAOnePlus9SystemUI \
-    FrameworksResTarget \
-    OnePlus9Frameworks \
-    OnePlus9ProFrameworks \
-    OnePlus9ProSettings \
-    OnePlus9ProSettingsProvider \
-    OnePlus9ProSystemUI \
-    OnePlus9SeriesCarrierConfig \
-    OnePlus9SeriesFrameworks \
-    OnePlus9SeriesSettings \
-    OnePlus9SeriesSystemUI \
-    OnePlus9Settings \
-    OnePlus9SettingsProvider \
-    OnePlus9SystemUI \
-    WifiResTarget \
-    WifiResTargetMainline
-
+    AOSPAFrameworks \
+    OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget.9SE \
+    OPlusSettingsProviderResTarget.Q3s \
+    OPlusSystemUIResTarget \
+    WifiResTarget
+    
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
