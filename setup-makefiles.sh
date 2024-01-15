@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=oneplus9
-VENDOR=oneplus
+DEVICE=ice
+VENDOR=realme
 
 # Load extract utilities and do some sanity checks.
 MY_DIR="${BASH_SOURCE%/*}"
